@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color:#E65100;
+    color: black;
+    padding : 28px;
+    font-size: 28px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+header nav li{
+    display: inline;
+}
+header nav li a{
+    color: black;
+}
+h2{
+    background-color: #424242;
+    color: #E65100;
+    font-size: xx-large;
+    padding-left: 24px;
+}
+.container ul{
+    justify-content: space-between;
+    display: flex;
+    align-items: normal;
+    background-color: #424242;
+    list-style-type: none;
+}
+.container li img{
+    height: 360px;
+    margin-right: 24px;
+    border-color: #E65100;
+    border-width: 10%;
+    border-radius: 2%;
+}
+h3{
+    font-size: x-large;
+    padding-bottom: 14px;
+}
+.container p{
+    font-size: 22px;
+    margin-bottom: 32px;
+}
+.container h4{
+    font-size: larger;
+}
+#about,
+#login{
+    padding: 36px;
+    background-color: #424242;
+}
+.join{
+    display: flex;
+    align-items: normal;
+}
+form input,
+form button {
+    display: block;
+    width: 320px;
+    height: 28px;
+    margin-bottom: 4px;
+    margin-right: 80px;
+}
+section img{
+    height: 240px;
+    border-radius: 2%;
+    margin-right: 80px;
+}
+form button{
+    background-color: #E65100;
+    color:white;
+    cursor: pointer;
+    border: none;
+}
+form button:hover{
+    background-color: #f17532;
+}
+.join ul li{
+    display: inline;
+}
+.join ul li img{
+    height: 50px;
+}
+footer {
+    background-color: #E65100;
+    color: white;
+    padding: 24px;
+}
